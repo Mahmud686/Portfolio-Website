@@ -1,0 +1,219 @@
+* {
+	margin: 0;
+	padding:0;
+}
+
+
+body {
+	
+	background-color: #ffffff;
+}
+
+
+/* right*/
+.wrapper {
+	position: relative;
+	left: 500px;
+	width: 900px;
+	border-style: ridge;
+}
+
+
+/*left*/
+.info {
+	position: fixed;
+	left: 130px;
+	width: 350px;
+	border-style: ridge;
+}
+
+.formal {
+	height: 400px;
+	width: 340px;
+	margin: 5px 5px 0px;
+	border: 2px solid #e6e6e6;
+}
+
+.stu {
+	margin: 20px 5px 0px;
+	font-family: 'Courier Prime', monospace;
+    text-align: center;
+}
+
+.icon {
+	position: absolute;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	left: 10px;
+	margin: 10px auto;
+}
+
+.address{
+	position: relative;
+	display: inline-block;
+	font-family: 'Courier Prime', monospace;
+	margin: 10px auto;
+	left: 40px;
+}
+
+.link {
+	position: relative;
+	display: inline-block;
+	font-family: 'Courier Prime', monospace;
+	margin: 10px auto;
+	left: 40px;
+}
+
+.link:hover {
+		border-bottom: 2px dashed #233287;
+}
+
+
+/*navigator*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #1a264f;
+  position: absolute;
+  width: 900px;
+  height: 70px;
+
+}
+
+.topnav a {
+  font-family: "Open Sans", Arial, sans-serif;
+  float: left;
+  color: #ffffff;
+  padding: 25px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.topnav a.active {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: absolute;
+  right: 0px;
+  color: white;
+  font-size: 100%;
+  height: 100%;
+}
+
+.topnav a.active:hover{
+	background: white ;
+	color: black;	
+}
+
+
+/*welcome page*/
+
+
+.welcome{
+  padding: 25px;
+  margin-top: 50px;
+  height: 200px;
+
+}
+
+.hi{
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  color: #111111;
+  word-spacing: 5px;
+  margin: 25px auto;
+}
+
+
+
+/* skills*/
+
+
+.skills {
+	width: 100%;
+}
+
+.sk {
+	font-family: 'Courier Prime', monospace;
+    text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+} 
+
+.lan{
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #04AA6D;
+  word-spacing: 5px;
+  margin: 5px 25px;
+}
+
+.lanname{
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  color: #111111;
+  word-spacing: 5px;
+  margin: 5px 70px;
+}
+/*Education*/
+
+
+.education {
+	width: 100%;
+
+}
+
+.edu {
+	font-family: 'Courier Prime', monospace;
+    text-align: center;
+	font-size: 40px;
+	text-decoration: underline;	
+}
+
+
+.varsity {
+		position: relative;
+		margin: 25px auto;
+		width: 700px;
+		border: 3px solid #3C0C15;
+		border-style: line;
+}
+
+
+.degree{
+   font-family: 'Teko', sans-serif;
+   position: relative;
+   height: 60px;
+   left: 60px;
+}
+
+.name {
+	font-family: 'Teko', sans-serif;
+	position: relative;
+	display: inline-block;
+	left: 60px;
+	background-color: #04AA6D;
+	color: #ffffff;
+}
+
+.logo{
+   display: inline-block;
+   height: 100%;
+   width: 60px;
+   top: 0%;
+   left: 70%;
+   position: absolute;
+   width: auto;
+   background-color:#ffffff;
+   
+}
+
+

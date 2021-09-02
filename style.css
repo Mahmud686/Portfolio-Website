@@ -1,0 +1,67 @@
+
+/*navigator*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #1a264f;
+  position: relative;
+  width: 100%;
+  height: 90px;
+
+}
+
+.topnav a {
+  font-family: "Open Sans", Arial, sans-serif;
+  float: left;
+  color: #ffffff;
+  padding: 35px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #1a264f ;
+  background-color: white;
+
+}
+
+.topnav a.active {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: absolute;
+  right: 0px;
+  color: white;
+  height: 100%;
+  font-size: 100%;
+}
+
+.topnav a.active:hover{
+	background: white ;
+	color: #1a264f ;	
+}
+
+.wrapper {
+	position: relative;
+	left: 15%;
+	top: 80px;
+	width: 70%;
+} 
+
+
+/*projects*/
+
+.pro {
+	margin: 0 auto;
+	font-family: 'Courier Prime', monospace;
+    text-align: center;
+	font-size: 40px;
+	text-decoration: underline;	
+}
+
+
+/* vitae */
+.cv{
+	margin: 0 auto;
+	font-family: 'Courier Prime', monospace;
+	text-align: left-side;
+	font-size: 30px;
+}
